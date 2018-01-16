@@ -1,0 +1,15 @@
+// @Author: yuanmanxue
+// @Date:   2018-01-16 09:40:21
+// @Last modified by:   yuanmanxue
+// @Last modified time: 2018-01-16 05:30:04
+@charset "UTF-8";
+@mixin flex($direction:column,$inline:block){
+  // display:if($inline==block,flex,inline-flex);
+  flex-direction:$direction;
+  flex-wrap:wrap;
+  @if $inline == block{
+    display: flex;
+  }@else{
+    display: inline-flex;
+  };
+}
