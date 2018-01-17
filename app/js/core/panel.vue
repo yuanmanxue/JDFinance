@@ -2,7 +2,7 @@
 @Author: yuanmanxue
 @Date:   2018-01-16 01:51:25
 @Last modified by:   yuanmanxue
-@Last modified time: 2018-01-16 02:09:10
+@Last modified time: 2018-01-17 11:15:01
 -->
 <template lang="html">
   <section :class="[panelClass,cname]">
@@ -21,7 +21,7 @@ export default {
   props:{
     title:{
       type:String,
-      default:'123'
+      default:''
     },
     cname:{
       type:String,

@@ -2,16 +2,15 @@
  * @Author: yuanmanxue
  * @Date:   2018-01-16 09:34:40
  * @Last modified by:   yuanmanxue
- * @Last modified time: 2018-01-16 03:32:47
+ * @Last modified time: 2018-01-17 01:52:45
  */
 
 import Vue from "vue"
 import App from "./App.vue"
 import router from "./router"
-// import VueAwesomeSwiper from "vue-awesome-swiper"
+import VueAwesomeSwiper from "vue-awesome-swiper"
 
-Vue.config.productionTip = false
-// Vue.use(VueAwesomeSwiper, /* { default global options } */)
+Vue.use(VueAwesomeSwiper, /* { default global options } */)
 
 /* eslint-disable no-new */
 new Vue({

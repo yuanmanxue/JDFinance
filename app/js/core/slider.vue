@@ -2,23 +2,23 @@
 @Author: yuanmanxue
 @Date:   2018-01-16 01:51:32
 @Last modified by:   yuanmanxue
-@Last modified time: 2018-01-16 04:19:02
+@Last modified time: 2018-01-17 10:32:27
 -->
 <template lang="html">
   <section :class="cname">
     <swiper :options="options">
-      <swiper-slider v-for="item in items" :key="item.href">
+      <swiper-slide v-for="item in items" :key="item.href">
         <router-link :to="{ name: item.href }">
-          <img :src="item.src" alt="">
+          <img :src="item.src" alt=""/>
         </router-link>
-      </swiper-slider>
-      <div class="swiper-pagination" v-if="options.pagination"></div>
+      </swiper-slide>
+      <div class="swiper-pagination" v-if="options.pagination" slot="pagination"></div>
     </swiper>
   </section>
 </template>
 
 <script>
-import {swiper, swiperSlider} from 'vue-awesome-swiper'
+import { swiper, swiperSlide } from 'vue-awesome-swiper'
 export default {
   props: {
     cname: {
@@ -30,13 +30,13 @@ export default {
       default() {
         return []
       }
-    }
+    },
     options: {
       type:Object,
       default() {
         return {
-          autoplay: true,
-          loop: true,
+          autoplay: false,
+          loop: false,
           pagination: {
             el: ".swiper-pagination"
           },
@@ -44,10 +44,10 @@ export default {
         }
       }
     }
-  }
+  },
   componemts:{
     swiper,
-    swiperSlider
+    swiperSlide
   }
 }
 </script>

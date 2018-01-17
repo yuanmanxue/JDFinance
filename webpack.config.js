@@ -1,3 +1,10 @@
+/**
+ * @Author: yuanmanxue
+ * @Date:   2018-01-16 09:34:40
+ * @Last modified by:   yuanmanxue
+ * @Last modified time: 2018-01-17 08:58:07
+ */
+
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -24,9 +31,7 @@ module.exports = env => {
     )
   }
   return {
-    entry: {
-      app: './app/js/main.js'
-    },
+    entry: ['./app/js/viewport.js','./app/js/main.js'],
     devServer: {
       contentBase: './dist',
       hot: true,

@@ -2,7 +2,7 @@
 @Author: yuanmanxue
 @Date:   2018-01-16 04:40:50
 @Last modified by:   yuanmanxue
-@Last modified time: 2018-01-16 05:11:27
+@Last modified time: 2018-01-17 08:44:32
 -->
 <template lang="html">
   <div :class="$style.header">
@@ -47,6 +47,7 @@ export default {
       height: 56px;
       line-height: 56px;
       min-width: 120px;
+      padding: 0;
       border-radius: 4px;
       margin: 28px 24px 0 0;
     }
