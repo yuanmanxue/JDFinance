@@ -2,7 +2,7 @@
 @Author: yuanmanxue
 @Date:   2018-01-17 02:44:59
 @Last modified by:   yuanmanxue
-@Last modified time: 2018-01-17 03:54:18
+@Last modified time: 2018-01-18 09:02:21
 -->
 
 <template lang="html">
@@ -82,7 +82,7 @@ export default {
       font-size: 28px;
       box-sizing: border-box;
       position: relative;
-      padding: 34px 16px;
+      padding: 34px 20px;
       &:after{
         content: '';
         width: 1px;

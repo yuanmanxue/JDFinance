@@ -2,7 +2,7 @@
 @Author: yuanmanxue
 @Date:   2018-01-17 09:02:54
 @Last modified by:   yuanmanxue
-@Last modified time: 2018-01-17 05:21:46
+@Last modified time: 2018-01-18 09:00:46
 -->
 <template lang="html">
   <article class="">
@@ -85,7 +85,6 @@ export default {
       display: inline-block;
       width: 90px;
       height: 90px;
-      padding:
     }
     h4{
       font-size: 26px;

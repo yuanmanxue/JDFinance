@@ -2,7 +2,7 @@
 @Author: yuanmanxue
 @Date:   2018-01-16 09:34:40
 @Last modified by:   yuanmanxue
-@Last modified time: 2018-01-17 05:15:11
+@Last modified time: 2018-01-18 09:53:38
 -->
 
 <template lang="html">
@@ -14,6 +14,8 @@
         <money></money>
         <product></product>
         <life></life>
+        <footor></footor>
+        <navbar></navbar>
     </div>
 </template>
 
@@ -25,6 +27,8 @@ import Borrow from '../home/borrow.vue'
 import Money from '../home/money.vue'
 import Product from '../home/product.vue'
 import Life from '../home/life.vue'
+import Footor from '../public/footer.vue'
+import Navbar from '../public/navbar.vue'
 export default {
   components:{
     Heador,
@@ -33,7 +37,9 @@ export default {
     Borrow,
     Money,
     Product,
-    Life
+    Life,
+    Footor,
+    Navbar
   }
 }
 </script>

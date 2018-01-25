@@ -2,20 +2,20 @@
 @Author: yuanmanxue
 @Date:   2018-01-17 05:07:11
 @Last modified by:   yuanmanxue
-@Last modified time: 2018-01-17 05:29:54
+@Last modified time: 2018-01-18 10:45:13
 -->
 
 <template lang="html">
-  <panel :title='title' :class="$style.panel">
-    <section :class="$style.list">
-      <div :class="$style.item" v-for="item in items">
+  <panel title='生活服务' :class="$style.panel">
+    <ul :class="$style.list">
+      <li :class="$style.item" v-for="item in items">
         <router-link :to="{ name: 'home' }">
           <img :src="item.src" alt="">
           <p>{{item.title}}</p>
           <span v-if="item.new">{{item.new}}</span>
         </router-link>
-      </div>
-    </section>
+      </li>
+    </ul>
   </panel>
 </template>
 
@@ -24,7 +24,6 @@ import Panel from '../core/panel.vue'
 export default {
   data(){
     return {
-        title:'生活服务',
         items:[{
           src:'//img12.360buyimg.com/jrpmobile/jfs/t4375/104/1184122472/3976/89741da4/58be8a6eNf10193d0.png?width=135&height=135',
           title:'惠加油'
@@ -60,10 +59,11 @@ export default {
     justify-content: space-around;
     box-sizing: border-box;
     padding:0 10px;
+    padding-bottom: 40px;
     .item{
       box-sizing: border-box;
       text-align: center;
-      width: 25%;
+      width: 20%;
       a{
         text-decoration: none;
       }

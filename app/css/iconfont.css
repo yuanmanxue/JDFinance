@@ -1,0 +1,29 @@
+/**
+ * @Author: yuanmanxue
+ * @Date:   2018-01-25 02:48:04
+ * @Last modified by:   yuanmanxue
+ * @Last modified time: 2018-01-25 04:39:03
+ */
+
+
+ @font-face {
+   font-family: 'iconfont';
+   src: url('./iconfont.eot');
+   src: url('./iconfont.eot?#iefix') format('embedded-opentype'),
+   url('./iconfont.woff') format('woff'),
+   url('./iconfont.ttf') format('truetype'),
+   url('./iconfont.svg#iconfont') format('svg');
+ }
+ .iconfont {
+   font-family:"iconfont" !important;
+   font-size:16px;
+   font-style:normal;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+ .icon-shouye:before { content: "\e61d"; }
+ .icon-jiantou:before { content: "\e66b"; }
+ .icon-yemian:before { content: "\e615"; }
+ .icon-tubiao-:before { content: "\e64f"; }
+ .icon-licai:before { content: "\e6aa"; }
+ .icon-kuangshan:before { content: "\e6a6"; }

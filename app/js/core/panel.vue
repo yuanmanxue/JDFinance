@@ -2,7 +2,7 @@
 @Author: yuanmanxue
 @Date:   2018-01-16 01:51:25
 @Last modified by:   yuanmanxue
-@Last modified time: 2018-01-17 11:15:01
+@Last modified time: 2018-01-18 09:48:42
 -->
 <template lang="html">
   <section :class="[panelClass,cname]">
@@ -31,7 +31,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   @import "../../css/element.scss";
   .panel{
     @include panel;
