@@ -2,10 +2,10 @@
 @Author: yuanmanxue
 @Date:   2018-01-17 09:02:54
 @Last modified by:   yuanmanxue
-@Last modified time: 2018-01-18 09:00:46
+@Last modified time: 2018-01-26 09:57:26
 -->
 <template lang="html">
-  <article class="">
+  <article>
     <slider :items="items" :cname="$style.slider"></slider>
     <section :class="$style.list">
       <div :class="$style.item" v-for="item in enters" :key="item.img">

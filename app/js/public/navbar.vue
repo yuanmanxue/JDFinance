@@ -2,11 +2,11 @@
 @Author: yuanmanxue
 @Date:   2018-01-16 04:41:07
 @Last modified by:   yuanmanxue
-@Last modified time: 2018-01-25 05:26:43
+@Last modified time: 2018-01-26 04:53:01
 -->
 <template lang="html">
-  <panel :class="$style.panel">
-    <ul :class="$style.content">
+  <panel :class="$style.panel" class="panel">
+    <ul :class="$style.content" class="content">
       <li>
         <router-link :to="{ name: 'home' }">
           <i class="iconfont">&#xe61d;</i>
@@ -26,13 +26,13 @@
         </router-link>
       </li>
       <li>
-        <router-link :to="{ name: '' }">
+        <router-link :to="{ name: 'crowd' }">
           <i class="iconfont">&#xe6a6;</i>
           <p>众筹</p>
         </router-link>
       </li>
       <li>
-        <router-link :to="{ name: '' }">
+        <router-link :to="{ name: 'mine' }">
           <i class="iconfont">&#xe64f;</i>
           <p>我的</p>
         </router-link>
@@ -54,7 +54,7 @@ export default {
 @import '../../css/element.scss';
 .panel{
   @include panel;
-  margin-bottom: 0px;
+  margin:20px 0 0 0;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -91,4 +91,10 @@ export default {
   }
 
 }
+</style>
+<style lang="scss" scoped>
+.panel .content li a.router-link-exact-active{
+  color: #F04752;
+}
+
 </style>
