@@ -2,7 +2,7 @@
 @Author: yuanmanxue
 @Date:   2018-01-16 04:41:07
 @Last modified by:   yuanmanxue
-@Last modified time: 2018-01-26 04:53:01
+@Last modified time: 2018-03-07 01:14:25
 -->
 <template lang="html">
   <panel :class="$style.panel" class="panel">

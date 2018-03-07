@@ -2,7 +2,7 @@
  * @Author: yuanmanxue
  * @Date:   2018-01-16 09:34:40
  * @Last modified by:   yuanmanxue
- * @Last modified time: 2018-02-23 05:31:20
+ * @Last modified time: 2018-03-07 01:14:32
  */
 
 import Vue from "vue"
@@ -13,7 +13,7 @@ import Blank from "../blank/index.vue"
 import Crowd from '../crowd/index.vue'
 import Mine from '../mine/index.vue'
 import "../../css/reset.scss"
-// import "../../css/iconfont.css"
+import "../../css/iconfont.css"
 Vue.use(Router)
 
 export default new Router({
