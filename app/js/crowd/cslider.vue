@@ -2,7 +2,7 @@
 @Author: yuanmanxue
 @Date:   2018-01-26 10:43:56
 @Last modified by:   yuanmanxue
-@Last modified time: 2018-01-26 02:12:42
+@Last modified time: 2018-01-29 11:41:35
 -->
 
 <template lang="html">
@@ -71,7 +71,7 @@ export default {
     height: 72px;
     line-height: 72px;
     overflow: hidden;
-    background:url('//m.jr.jd.com/spe/qyy/main/images/scroll_title_img.png') left top no-repeat;
+    background:#fff url('//m.jr.jd.com/spe/qyy/main/images/scroll_title_img.png') left top no-repeat;
     &>h4{
       display:none;
     }
